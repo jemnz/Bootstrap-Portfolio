@@ -33,36 +33,54 @@ header nav {
 }
 
 .custom-link {
-    text-decoration: none; /* Remove the default underline */
-    position: relative; /* Create a relative positioning context */
-    transition: color 0.3s, border-bottom 0.3s; /* Smooth transitions for text color and underline */
-    color: #000; /* Set the default text color */
+    text-decoration: none; 
+    position: relative; 
+    transition: color 0.3s, border-bottom 0.3s; 
+    color: #000; 
 }
 
 .custom-link:hover {
-    color: #FFC0CB; /* Change the text color on hover */
+    color: #FFC0CB; 
 }
 
 .custom-link::before {
-    content: ""; /* Create a pseudo-element */
-    position: absolute; /* Position it absolutely within the parent */
-    bottom: -2px; /* Adjust the distance of the underline from the text */
-    left: 0; /* Start the underline from the left */
-    width: 100%; /* Extend the underline to the full width of the link */
-    border-bottom: 2px solid #FFC0CB; /* Define the underline style and color */
+    content: ""; 
+    position: absolute; 
+    bottom: -2px; 
+    left: 0; 
+    width: 100%; 
+    border-bottom: 2px solid #FFC0CB; 
 }
 
 .custom-link:hover::before {
-    border-bottom: 2px solid #000; /* Change the underline color on hover */
+    border-bottom: 2px solid #000; 
 }
 
 .custom-button {
-    background-color: #FFC0CB; /* Set the background color to #FFC0CB */
-    color: black; /* Set the text color to white */
-    border: none; /* Remove the default button border */
-    transition: background-color 0.3s; /* Smooth transition for background color change on hover */
+    background-color: #FFC0CB; 
+    color: black; 
+    border: none; 
+    transition: background-color 0.3s; 
 }
 
 .custom-button:hover {
-    background-color: #FF69B4; /* Change the background color on hover if desired */
+    background-color: #FF69B4; 
+}
+
+.custom-italic {
+    font-style: italic;
+}
+
+.custom-contact-button {
+    background-color: #FFC0CB; 
+    border-radius: 5px;
+    color: white;
+    border: none; 
+    transition: background-color 0.3s; 
+    text-shadow: 0 0 3px black; 
+}
+
+
+.custom-contact-button:hover {
+    background-color: #FF69B4; 
 }
