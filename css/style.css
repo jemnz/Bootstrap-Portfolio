@@ -74,13 +74,32 @@ header nav {
 .custom-contact-button {
     background-color: #FFC0CB; 
     border-radius: 5px;
-    color: white;
+    color: black;
+    font-weight: bold;
     border: none; 
     transition: background-color 0.3s; 
-    text-shadow: 0 0 3px black; 
 }
 
 
 .custom-contact-button:hover {
     background-color: #FF69B4; 
+}
+
+.page-wrapper {
+    background-color: floralwhite;
+}
+
+.section-content p {
+    font-size: large;
+}
+
+.section-content h2 {
+    color: black;
+}
+
+.text-container {
+    padding: 10px; /* Adjust padding as needed */
+    background-color: #FFC0CB; /* Background color for the text container */
+    text-align: center; /* Center the text within the container */
+    border-radius: 5px;
 }
