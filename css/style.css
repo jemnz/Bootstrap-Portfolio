@@ -93,13 +93,42 @@ header nav {
     font-size: large;
 }
 
-.section-content h2 {
+.section-title h2 {
     color: black;
 }
 
-.text-container {
-    padding: 10px; /* Adjust padding as needed */
-    background-color: #FFC0CB; /* Background color for the text container */
-    text-align: center; /* Center the text within the container */
+.about-container {
+    padding: 10px; 
+    background-color: #FFC0CB;
+    text-align: center; 
     border-radius: 5px;
+    margin: 2%;
+    padding: 20px;
+    height: 100%;
+}
+
+.contact-container {
+    background-color: white;
+    text-align: center; 
+    border-radius: 5px;
+    margin: 2%;
+    padding: 20px;
+    height: 100%;
+
+}
+
+.mail-link {
+    color:    #FF69B4; /* Replace with your desired color */
+    text-decoration: none; /* Remove underline for links */
+}
+
+.mail-link:hover {
+    color: #FFC0CB; /* Change the color on hover */
+}
+
+.about-contact {
+    background-image: url('/Bootstrap-Portfolio/images/About-Contact.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
