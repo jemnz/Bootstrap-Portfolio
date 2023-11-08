@@ -13,10 +13,6 @@ The website can be opened in any browser via the following link:
 
 Below is a screenshot of the deployed website which shows the links in the navigation bar to access different sections of the website, the work link in the navigation bar has a dropdown menu that directly takes you to the deployed projects. Each project card also is a link to the deployed website when clicked.
 
-Provide instructions and examples for use. Include screenshots as needed.
-
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
-
 [Screenshot of website](images/Bootstrap-website-screenshot.jpg)
 
 ## Credits
