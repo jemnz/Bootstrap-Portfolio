@@ -1,3 +1,6 @@
+
+/* Avatar photo styling*/
+
 .Avatar {
     width: 100%;
     height: 100%;
@@ -5,6 +8,7 @@
 
 }
 
+/* Jumbotron styling*/
 .jumbotron {
     background-color: floralwhite;
 }
@@ -19,6 +23,14 @@
     color: black;
 }
 
+
+.custom-border {
+    border: 1px solid black;
+    padding: 20px;
+    margin: 20px;
+}
+
+/* Navbar styling*/
 header nav {
     background-color: floralwhite;
     float: right;
@@ -26,11 +38,6 @@ header nav {
 }
 
 
-.custom-border {
-    border: 1px solid black;
-    padding: 20px;
-    margin: 20px;
-}
 
 .custom-link {
     text-decoration: none; 
@@ -56,6 +63,7 @@ header nav {
     border-bottom: 2px solid #000; 
 }
 
+/* Jumbotron button styling*/
 .custom-button {
     background-color: #FFC0CB; 
     color: black; 
@@ -67,10 +75,12 @@ header nav {
     background-color: #FF69B4; 
 }
 
+/* Jumbotron description textstyling*/
 .custom-italic {
     font-style: italic;
 }
 
+/* Navbar button styling*/
 .custom-contact-button {
     background-color: #FFC0CB; 
     border-radius: 5px;
@@ -85,6 +95,7 @@ header nav {
     background-color: #FF69B4; 
 }
 
+/* About-contact section image styling*/
 .about-contact {
     background-image: url('/Bootstrap-Portfolio/images/About-Contact.png');
     background-size: cover;
@@ -92,11 +103,12 @@ header nav {
     background-position: center;
 }
 
-
+/* main background*/
 .page-wrapper {
     background-color: floralwhite;
 }
 
+/* Text styling*/
 .section-content p {
     font-size: large;
 }
@@ -106,6 +118,7 @@ header nav {
     border-bottom: 2px solid #FFC0CB;
 }
 
+/* About section styling*/
 .about-container {
     padding: 10px; 
     background-color: #FFC0CB;
@@ -116,6 +129,7 @@ header nav {
     height: 100%;
 }
 
+/* Contact section styling*/
 .contact-container {
     background-color: white;
     text-align: center; 
@@ -126,6 +140,7 @@ header nav {
 
 }
 
+/* Email transitions and  styling*/
 .mail-link {
     color:    #FF69B4;
     text-decoration: none; 
@@ -135,7 +150,7 @@ header nav {
     color: #FFC0CB; 
 }
 
-
+/* Work flex card arrangment */
 .flex-container {
     display: flex;
     flex-wrap: wrap;
@@ -150,6 +165,7 @@ header nav {
     object-fit: cover;
 }
 
+/* Work cards styling*/
 .card {
     border: 1px solid #FF69B4;
     border-radius: 10px;
@@ -180,6 +196,7 @@ header nav {
     opacity: 0.8; 
 }
 
+/* Footer styling*/
 footer {
     background-color: #FFC0CB; 
     color: black;
