@@ -85,6 +85,14 @@ header nav {
     background-color: #FF69B4; 
 }
 
+.about-contact {
+    background-image: url('/Bootstrap-Portfolio/images/About-Contact.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
 .page-wrapper {
     background-color: floralwhite;
 }
@@ -127,12 +135,6 @@ header nav {
     color: #FFC0CB; 
 }
 
-.about-contact {
-    background-image: url('/Bootstrap-Portfolio/images/About-Contact.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
 
 .flex-container {
     display: flex;
