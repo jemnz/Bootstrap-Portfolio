@@ -178,3 +178,19 @@ header nav {
     opacity: 0.8; 
 }
 
+footer {
+    background-color: #FFC0CB; 
+    color: black;
+}
+
+.nav-link {
+    color: black; 
+    text-decoration: none; 
+    transition: color 0.3s; 
+}
+
+
+.nav-link:hover {
+    color: #FF69B4;;
+}
+
