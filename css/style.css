@@ -147,3 +147,38 @@ header nav {
     height: 100%;
     object-fit: cover;
 }
+
+.card {
+    border: 1px solid #FF69B4;
+    border-radius: 10px;
+    transition: box-shadow 0.3s;
+    overflow: hidden; /* Hide overflowing content */
+    position: relative;
+}
+
+/* Hover effect on the card */
+.card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px); /* Add a slight lift on hover */
+}
+
+/* Style for the card title */
+.card-title {
+    font-weight: bold;
+    color:black;
+}
+
+/* Style for the image link */
+.card-img-top {
+    transition: transform 0.3s, opacity 0.3s;
+}
+
+/* Hover effect on the image link */
+.card-img-top:hover {
+    transform: scale(1.05) !important;
+    opacity: 0.8; /* Adjust the opacity level as needed */
+}
+
+.card-title, .card-text {
+    text-decoration: none;
+}
